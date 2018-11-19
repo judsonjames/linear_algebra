@@ -1,0 +1,41 @@
+% Judson James
+% MATH 344L
+% Lab 09
+
+B
+
+B =
+
+    -7     4    -2    -8     6
+     8     7     2     3    -1
+     6    -6     6     0    -7
+    -6     2    -9     2     0
+    -9     6     7     5     0
+
+
+det(B)
+
+ans =
+
+    -7.787100000000001e+04
+
+
+mydet(B)
+
+ans =
+
+      -77871
+
+
+% I cannot explain the '1' in the far decimals, so I'll
+% use significant digits
+
+-7.7871e+04 == mydet(B)
+
+ans =
+
+  logical
+
+   1
+
+diary off
