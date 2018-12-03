@@ -1,0 +1,35 @@
+% Judson James
+% MATH 344L 002
+% Lab 11
+%
+
+N
+
+N =
+
+          10          20         100        1000
+
+tinit
+
+tinit =
+
+     0
+
+tend
+
+tend =
+
+     5
+
+uinit
+
+uinit =
+
+     0
+
+feuler(N(1), tinit, tend, uinit)
+feuler(N(2), tinit, tend, uinit)
+feuler(N(3), tinit, tend, uinit)
+feuler(N(4), tinit, tend, uinit)
+
+diary off
